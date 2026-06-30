@@ -1,8 +1,13 @@
 import { getTranslations } from "next-intl/server";
 import { setRequestLocale } from "next-intl/server";
 import PageHeader from "@/components/PageHeader";
-import ContactForm from "@/components/ContactForm";
-import { CAMP_PHONE_DISPLAY, CAMP_PHONE_TEL, FACEBOOK_URL } from "@/lib/constants";
+import FacebookChatButton from "@/components/FacebookChatButton";
+import {
+  CAMP_PHONE_DISPLAY,
+  CAMP_PHONE_TEL,
+  FACEBOOK_MESSENGER_URL,
+  FACEBOOK_URL,
+} from "@/lib/constants";
 
 export default async function ContactPage({
   params,
@@ -13,20 +18,16 @@ export default async function ContactPage({
   setRequestLocale(locale);
   const t = await getTranslations("contact");
 
-  const phone = CAMP_PHONE_DISPLAY;
-  const email = t("info.email");
-  const phoneHref = CAMP_PHONE_TEL;
-
   const infoItems = [
     {
       label: t("phone"),
-      value: phone,
-      href: phoneHref,
+      value: CAMP_PHONE_DISPLAY,
+      href: CAMP_PHONE_TEL,
     },
     {
       label: t("email"),
-      value: email,
-      href: `mailto:${email}`,
+      value: t("info.email"),
+      href: `mailto:${t("info.email")}`,
     },
     {
       label: t("address"),
@@ -90,8 +91,22 @@ export default async function ContactPage({
               />
             </div>
           </div>
-          <div className="rounded-2xl border border-spark-100 bg-white p-8 shadow-sm">
-            <ContactForm />
+          <div className="flex flex-col justify-center rounded-2xl border border-spark-100 bg-spark-100 p-8 shadow-sm">
+            <h2 className="text-2xl font-bold text-spark-900">{t("chat.title")}</h2>
+            <p className="mt-4 text-sm leading-7 text-gray-700">{t("chat.text")}</p>
+            <div className="mt-8">
+              <FacebookChatButton className="w-full sm:w-auto">
+                {t("chat.cta")}
+              </FacebookChatButton>
+            </div>
+            <a
+              href={FACEBOOK_MESSENGER_URL}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-4 text-xs text-spark-700 hover:underline"
+            >
+              {t("chat.linkHint")}
+            </a>
           </div>
         </div>
       </section>

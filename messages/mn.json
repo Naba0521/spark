@@ -13,7 +13,7 @@
   "hero": {
     "title": "Англи хэлний мэдлэгээ Spark-тай хамт асаагаарай",
     "subtitle": "Spark English Centre — Улаанбаатар дахь англи хэлний сургалтын төв. Мэргэжлийн багш, жижиг бүлэг, практик сургалт.",
-    "ctaPrimary": "Хичээлд бүртгүүлэх",
+    "ctaPrimary": "Facebook чат",
     "ctaSecondary": "Зуслан 2026"
   },
   "features": {
@@ -54,7 +54,7 @@
   "courses": {
     "title": "Хичээлүүд",
     "subtitle": "Таны түвшин, зорилгод тохирсон хичээлийг сонгоно уу.",
-    "register": "Бүртгүүлэх",
+    "register": "Facebook чат",
     "items": {
       "general": {
         "title": "Ерөнхий англи хэл",
@@ -86,21 +86,17 @@
     "address": "Хаяг",
     "hours": "Ажиллах цаг",
     "facebook": "Facebook",
-    "form": {
-      "name": "Нэр",
-      "phone": "Утас",
-      "message": "Зурвас",
-      "submit": "Илгээх",
-      "success": "Баярлалаа! Имэйл програм нээгдэнэ.",
-      "placeholderName": "Таны нэр",
-      "placeholderPhone": "9911 xxxx",
-      "placeholderMessage": "Асуулт, хүсэлт..."
-    },
     "info": {
       "phone": "8911 7048",
       "email": "info@sparkenglish.mn",
       "address": "Улаанбаатар хот",
       "hours": "Даваа–Баасан: 10:00–19:00"
+    },
+    "chat": {
+      "title": "Facebook чат",
+      "text": "Бүртгүүлэх, асуулт асуух зүйл байвал шууд Facebook Messenger-ээр бичээрэй. Бид хамгийн түрүүнд хариулна.",
+      "cta": "Facebook чат нээх",
+      "linkHint": "Messenger шинэ цонхонд нээгдэнэ"
     }
   },
   "footer": {
@@ -275,9 +271,9 @@
         "dates": "8 сарын 16 – 8 сарын 23"
       }
     ],
-    "registerTitle": "Хэрхэн бүртгүүлэх вэ?",
-    "registerText": "8911 7048 дугаарт холбогдох эсвэл Spark English Center Facebook хуудсын захидал хэсэгт бичиж бүртгүүлээрэй.",
-    "registerCta": "Бүртгүүлэх",
+    "registerTitle": "Холбогдох",
+    "registerText": "Зусланд бүртгүүлэх, асуулт асуух бол Facebook чатаар шууд бичээрэй.",
+    "registerCta": "Facebook чат нээх",
     "registerCall": "8911 7048 руу залгах",
     "closing": "Хүүхэд насны хамгийн сайхан дурсамжийг хамтдаа бүтээцгээе.",
     "banner": {
@@ -285,6 +281,8 @@
       "title": "Spark English Summer Camp",
       "subtitle": "Горхи Тэрэлж · Америк багш · 7–18 нас",
       "cta": "Дэлгэрэнгүй"
-    }
+    },
+    "registerPage": "Facebook хуудас",
+    "registerPhone": "Утас"
   }
 }

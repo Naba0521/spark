@@ -1,12 +1,8 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import PageHeader from "@/components/PageHeader";
-import { Link } from "@/lib/navigation";
-import {
-  CAMP_PHONE_DISPLAY,
-  CAMP_PHONE_TEL,
-  FACEBOOK_URL,
-} from "@/lib/constants";
+import FacebookChatButton from "@/components/FacebookChatButton";
+import { CAMP_PHONE_DISPLAY, CAMP_PHONE_TEL, FACEBOOK_URL } from "@/lib/constants";
 
 export async function generateMetadata({
   params,
@@ -185,28 +181,24 @@ export default async function SummerCampPage({
             {t("closing")}
           </p>
           <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-            <a
-              href={CAMP_PHONE_TEL}
-              className="inline-flex w-full items-center justify-center rounded-full bg-white px-8 py-3 text-sm font-semibold text-spark-900 transition hover:bg-spark-100 sm:w-auto"
-            >
-              {t("registerCall")}
-            </a>
+            <FacebookChatButton variant="white" className="w-full px-8 sm:w-auto">
+              {t("registerCta")}
+            </FacebookChatButton>
             <a
               href={FACEBOOK_URL}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex w-full items-center justify-center rounded-full border border-white/40 px-8 py-3 text-sm font-semibold text-white transition hover:bg-white/10 sm:w-auto"
             >
-              Facebook
+              {t("registerPage")}
             </a>
-            <Link
-              href="/contact"
-              className="inline-flex w-full items-center justify-center rounded-full border border-white/40 px-8 py-3 text-sm font-semibold text-white transition hover:bg-white/10 sm:w-auto"
-            >
-              {t("registerCta")}
-            </Link>
           </div>
-          <p className="mt-6 text-2xl font-bold">{CAMP_PHONE_DISPLAY}</p>
+          <p className="mt-6 text-sm text-white/80">
+            {t("registerPhone")}:{" "}
+            <a href={CAMP_PHONE_TEL} className="font-semibold text-white hover:underline">
+              {CAMP_PHONE_DISPLAY}
+            </a>
+          </p>
         </div>
       </section>
     </>

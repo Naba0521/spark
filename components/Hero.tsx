@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getTranslations } from "next-intl/server";
+import FacebookChatButton from "@/components/FacebookChatButton";
 import { Link } from "@/lib/navigation";
 
 export default async function Hero() {
@@ -23,12 +24,9 @@ export default async function Hero() {
             {t("subtitle")}
           </p>
           <div className="mt-6 flex flex-col gap-3 sm:mt-8 sm:flex-row">
-            <Link
-              href="/contact"
-              className="inline-flex w-full items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-semibold text-spark-900 transition hover:bg-spark-100 sm:w-auto"
-            >
+            <FacebookChatButton variant="white" className="w-full sm:w-auto">
               {t("ctaPrimary")}
-            </Link>
+            </FacebookChatButton>
             <Link
               href="/summer-camp"
               className="inline-flex w-full items-center justify-center rounded-full border border-white/40 px-6 py-3 text-sm font-semibold text-white transition hover:bg-white/10 sm:w-auto"

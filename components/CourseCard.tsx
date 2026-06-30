@@ -1,4 +1,4 @@
-import { Link } from "@/lib/navigation";
+import { FACEBOOK_MESSENGER_URL } from "@/lib/constants";
 
 type CourseCardProps = {
   title: string;
@@ -20,12 +20,14 @@ export default function CourseCard({
       </div>
       <h3 className="text-xl font-bold text-spark-900">{title}</h3>
       <p className="mt-3 flex-1 text-sm leading-6 text-gray-600">{description}</p>
-      <Link
-        href="/contact"
+      <a
+        href={FACEBOOK_MESSENGER_URL}
+        target="_blank"
+        rel="noopener noreferrer"
         className="mt-6 inline-flex items-center justify-center rounded-full bg-spark-700 px-5 py-2.5 text-sm font-semibold text-white transition hover:bg-spark-900"
       >
         {registerLabel}
-      </Link>
+      </a>
     </article>
   );
 }

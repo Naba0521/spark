@@ -13,7 +13,7 @@
   "hero": {
     "title": "Ignite your English with Spark",
     "subtitle": "Spark English Centre — an English language training center in Ulaanbaatar. Professional teachers, small groups, practical learning.",
-    "ctaPrimary": "Enroll Now",
+    "ctaPrimary": "Facebook Chat",
     "ctaSecondary": "Summer Camp 2026"
   },
   "features": {
@@ -54,7 +54,7 @@
   "courses": {
     "title": "Courses",
     "subtitle": "Choose the course that fits your level and goals.",
-    "register": "Register",
+    "register": "Facebook Chat",
     "items": {
       "general": {
         "title": "General English",
@@ -86,21 +86,17 @@
     "address": "Address",
     "hours": "Hours",
     "facebook": "Facebook",
-    "form": {
-      "name": "Name",
-      "phone": "Phone",
-      "message": "Message",
-      "submit": "Send",
-      "success": "Thank you! Your email app will open to send the message.",
-      "placeholderName": "Your name",
-      "placeholderPhone": "9911 xxxx",
-      "placeholderMessage": "Your question or request..."
-    },
     "info": {
       "phone": "8911 7048",
       "email": "info@sparkenglish.mn",
       "address": "Ulaanbaatar, Mongolia",
       "hours": "Mon–Fri: 10:00–19:00"
+    },
+    "chat": {
+      "title": "Facebook Chat",
+      "text": "For registration or questions, message us directly on Facebook Messenger. We'll reply as soon as we can.",
+      "cta": "Open Facebook Chat",
+      "linkHint": "Opens Messenger in a new tab"
     }
   },
   "footer": {
@@ -275,9 +271,9 @@
         "dates": "Aug 16 – Aug 23"
       }
     ],
-    "registerTitle": "How to Register",
-    "registerText": "Call 8911 7048 or message us on the Spark English Center Facebook page to register.",
-    "registerCta": "Register Now",
+    "registerTitle": "Get in Touch",
+    "registerText": "To register for camp or ask a question, message us directly on Facebook chat.",
+    "registerCta": "Open Facebook Chat",
     "registerCall": "Call 8911 7048",
     "closing": "Let's create the best childhood memories together.",
     "banner": {
@@ -285,6 +281,8 @@
       "title": "Spark English Summer Camp",
       "subtitle": "Gorkhi Terelj · American Teachers · Ages 7–18",
       "cta": "Learn More"
-    }
+    },
+    "registerPage": "Facebook Page",
+    "registerPhone": "Phone"
   }
 }
