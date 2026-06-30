@@ -1,0 +1,290 @@
+{
+  "metadata": {
+    "title": "Spark English Centre | Ulaanbaatar",
+    "description": "Spark English Centre — English language training center in Ulaanbaatar. Professional teachers, small groups, IELTS preparation."
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "courses": "Courses",
+    "contact": "Contact",
+    "summerCamp": "Summer Camp"
+  },
+  "hero": {
+    "title": "Ignite your English with Spark",
+    "subtitle": "Spark English Centre — an English language training center in Ulaanbaatar. Professional teachers, small groups, practical learning.",
+    "ctaPrimary": "Enroll Now",
+    "ctaSecondary": "Summer Camp 2026"
+  },
+  "features": {
+    "title": "Why Choose Spark?",
+    "items": {
+      "teachers": {
+        "title": "Professional Teachers",
+        "description": "Experienced, qualified teachers to help you improve your English level."
+      },
+      "groups": {
+        "title": "Small Groups",
+        "description": "More attention from teachers and more opportunities to speak."
+      },
+      "programs": {
+        "title": "Diverse Programs",
+        "description": "General English, IELTS, Kids English, and Business English."
+      },
+      "environment": {
+        "title": "Comfortable Environment",
+        "description": "Modern classrooms, friendly atmosphere, and room to grow."
+      }
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "intro": "Spark English Centre is a language training center in Ulaanbaatar dedicated to developing English knowledge and skills.",
+    "missionTitle": "Our Mission",
+    "mission": "To help every student speak, write, and read English with confidence and fluency.",
+    "valuesTitle": "Our Values",
+    "values": [
+      "Quality education",
+      "Personal attention",
+      "Practical, application-focused learning",
+      "Friendly, supportive environment"
+    ],
+    "whyTitle": "Why Spark?"
+  },
+  "courses": {
+    "title": "Courses",
+    "subtitle": "Choose the course that fits your level and goals.",
+    "register": "Register",
+    "items": {
+      "general": {
+        "title": "General English",
+        "description": "Levels A1–C1. Balanced training in speaking, listening, reading, and writing.",
+        "level": "All levels"
+      },
+      "ielts": {
+        "title": "IELTS Preparation",
+        "description": "IELTS strategies, mock tests, and teacher feedback.",
+        "level": "Intermediate+"
+      },
+      "kids": {
+        "title": "Kids English",
+        "description": "Interactive, fun lessons using games and songs for children.",
+        "level": "Ages 6–14"
+      },
+      "business": {
+        "title": "Business English",
+        "description": "Workplace speaking, emails, presentations, and negotiation skills.",
+        "level": "Intermediate+"
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Have a question? Reach out and we'll get back to you soon.",
+    "phone": "Phone",
+    "email": "Email",
+    "address": "Address",
+    "hours": "Hours",
+    "facebook": "Facebook",
+    "form": {
+      "name": "Name",
+      "phone": "Phone",
+      "message": "Message",
+      "submit": "Send",
+      "success": "Thank you! Your email app will open to send the message.",
+      "placeholderName": "Your name",
+      "placeholderPhone": "9911 xxxx",
+      "placeholderMessage": "Your question or request..."
+    },
+    "info": {
+      "phone": "8911 7048",
+      "email": "info@sparkenglish.mn",
+      "address": "Ulaanbaatar, Mongolia",
+      "hours": "Mon–Fri: 10:00–19:00"
+    }
+  },
+  "footer": {
+    "tagline": "Ignite your English with Spark",
+    "rights": "© {year} Spark English Centre. All rights reserved.",
+    "menu": "Menu",
+    "social": "Social"
+  },
+  "facebook": {
+    "title": "Latest Updates",
+    "follow": "Follow on Facebook"
+  },
+  "summerCamp": {
+    "metadata": {
+      "title": "Spark English Summer Camp 2026",
+      "description": "English immersion summer camp in Gorkhi Terelj with American teachers. June 14 – August 23, 2026. 10 sessions, ages 7–18."
+    },
+    "title": "SPARK ENGLISH SUMMER CAMP 2026",
+    "hashtag": "English Immersion Environment",
+    "intro": "Our English immersion summer camp with American teachers runs in 10 sessions from June 14 to August 23, 2026.",
+    "description": "At Gorkhi Terelj National Park, children learn English in a fully immersive environment — 2–3 hours of classroom lessons daily, plus all-day conversation with international teachers, completely away from phones and the internet.",
+    "stats": {
+      "dates": {
+        "label": "Dates",
+        "value": "Jun 14 – Aug 23, 2026"
+      },
+      "shifts": {
+        "label": "Sessions",
+        "value": "10 sessions"
+      },
+      "ages": {
+        "label": "Ages",
+        "value": "7–18"
+      },
+      "location": {
+        "label": "Location",
+        "value": "Gorkhi Terelj"
+      }
+    },
+    "programsTitle": "Camp Activities",
+    "programs": [
+      {
+        "title": "Drama, Film & Creative",
+        "description": "Creative projects, drama, and film days"
+      },
+      {
+        "title": "Sports Program",
+        "description": "Various sports, movement, and team games"
+      },
+      {
+        "title": "Nature Hiking",
+        "description": "Mountain hikes and nature exploration"
+      },
+      {
+        "title": "Art Day",
+        "description": "Creative arts and craft activities"
+      },
+      {
+        "title": "Dance Training",
+        "description": "Dance, movement, and performance skills"
+      },
+      {
+        "title": "Cosplay Day",
+        "description": "Costume, cosplay, and creative play"
+      },
+      {
+        "title": "Fun Games",
+        "description": "Board games and team challenges"
+      },
+      {
+        "title": "Spark City",
+        "description": "City-building and creative project day"
+      },
+      {
+        "title": "Talent Day",
+        "description": "Showcase talents and discover new skills"
+      },
+      {
+        "title": "Spark Music Day",
+        "description": "Music, singing, and performance"
+      },
+      {
+        "title": "Spark Friends Day",
+        "description": "Friendship and teamwork activities"
+      },
+      {
+        "title": "Motivation Day",
+        "description": "Inspiration, mindset, and personal growth"
+      },
+      {
+        "title": "Bonfire Festival",
+        "description": "Campfire celebration and memories"
+      }
+    ],
+    "programsNote": "Children can participate in all activities in both English and Mongolian.",
+    "advantagesTitle": "Why Our Camp Stands Out",
+    "advantages": [
+      "Professional teachers from America, England, Canada, Philippines, and Mongolia",
+      "International teachers with TESOL/TEFL certifications",
+      "Practical, easy-to-learn methods focused on listening and speaking skills",
+      "Classroom lessons reinforced through all-day conversational practice",
+      "Safe, comfortable, and healthy environment",
+      "Brand-new bedding, furniture, and equipment",
+      "Clean and comfortable rooms",
+      "5 hot meals and tea per day",
+      "New buildings with modern bathrooms and showers",
+      "Fresh dairy from local herder families daily",
+      "24-hour security",
+      "Opportunities to discover and develop new skills",
+      "Age-appropriate programs for every child"
+    ],
+    "detailsTitle": "Key Details",
+    "details": [
+      {
+        "label": "Duration options",
+        "value": "7, 14, or 21 days"
+      },
+      {
+        "label": "Age range",
+        "value": "7–18 years old"
+      },
+      {
+        "label": "Location",
+        "value": "Gorkhi Terelj National Park"
+      },
+      {
+        "label": "Phone",
+        "value": "8911 7048"
+      }
+    ],
+    "scheduleTitle": "Session Schedule",
+    "scheduleNote": "Each session is 7 days. Register for 14 or 21 days by combining sessions.",
+    "shifts": [
+      {
+        "number": 1,
+        "dates": "Jun 14 – Jun 21"
+      },
+      {
+        "number": 2,
+        "dates": "Jun 21 – Jun 28"
+      },
+      {
+        "number": 3,
+        "dates": "Jun 28 – Jul 05"
+      },
+      {
+        "number": 4,
+        "dates": "Jul 05 – Jul 12"
+      },
+      {
+        "number": 5,
+        "dates": "Jul 12 – Jul 19"
+      },
+      {
+        "number": 6,
+        "dates": "Jul 19 – Jul 26"
+      },
+      {
+        "number": 7,
+        "dates": "Jul 26 – Aug 02"
+      },
+      {
+        "number": 8,
+        "dates": "Aug 02 – Aug 09"
+      },
+      {
+        "number": 9,
+        "dates": "Aug 09 – Aug 16"
+      },
+      {
+        "number": 10,
+        "dates": "Aug 16 – Aug 23"
+      }
+    ],
+    "registerTitle": "How to Register",
+    "registerText": "Call 8911 7048 or message us on the Spark English Center Facebook page to register.",
+    "registerCta": "Register Now",
+    "registerCall": "Call 8911 7048",
+    "closing": "Let's create the best childhood memories together.",
+    "banner": {
+      "badge": "Summer Camp 2026",
+      "title": "Spark English Summer Camp",
+      "subtitle": "Gorkhi Terelj · American Teachers · Ages 7–18",
+      "cta": "Learn More"
+    }
+  }
+}
